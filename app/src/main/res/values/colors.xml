@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mainColor">#01adbb</color>
+    <color name="darkMainColor">#005555</color>
+    <color name="colorPrimary">#01adbb</color>
+    <color name="colorPrimaryDark">#018f9b</color>
+    <color name="colorAccent">#01adbb</color>
+    <color name="focused_text_color">#40a0ff</color>
+    <color name="pressed_text_color">#01adbb</color>
+    <color name="disabled_text_color">#8ad5dc</color>
+    <color name="selected_day_color">#90e8f1</color>
+    <color name="default_text_color">#01adbb</color>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="buttonText">#FFFFFF</color>
+    <color name="backgroudColorWhite">#FFFFFF</color>
+    <color name="textbackgroud">#66FFFFFF</color>
+    <color name="score_sleep">#2939f9</color>
+    <color name="score_step">#1398b3</color>
+    <color name="score_meal">#e43030</color>
+    <color name="score_sum">#005555</color>
+</resources>

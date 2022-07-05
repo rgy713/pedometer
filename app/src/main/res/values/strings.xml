@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">歩幅計測アプリ</string>
+    <string name="app_title">Pedo-visor</string>
+    <string name="notifier_title">Pedo-visor(歩幅計測中...)</string>
+
+    <!-- Strings related to menu -->
+    <string name="datadown">測定データのダウンロード</string>
+    <string name="userinfo">アカウント</string>
+    <string name="logout">ログアウト</string>
+    <string name="health_habit">わたしの健康習慣</string>
+    <string name="meal_habit">⾷事習慣</string>
+    <string name="sleep_habit">睡眠習慣</string>
+    <string name="weight_habit">体重</string>
+    <string name="all_habit">全体スコア</string>
+    <string name="score_page">スコア画面</string>
+    <string name="reset_password">パスワードのリセット</string>
+    <string name="check_verification">検証</string>
+    <string name="result_view">歩幅測定結果</string>
+    <string name="score_sum">合計</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_uid">ユーザーID</string>
+    <string name="error_incorrect_uid">このユーザーIDは誤っています</string>
+    <string name="prompt_password">パスワード</string>
+    <string name="forget_password">パスワードを忘れた方はこちら</string>
+    <string name="action_log_in">ログイン</string>
+    <string name="action_log_in_short">ログイン</string>
+    <string name="new_registration">新規登録はこちら　＞</string>
+    <string name="error_invalid_password">このパスワードは短すぎます</string>
+    <string name="error_incorrect_password">このパスワードは間違っています</string>
+    <string name="error_field_required">この項目は必須です</string>
+
+    <!-- String related to user information update-->
+    <string name="action_sign_in">登録</string>
+    <string name="change_password">パスワードの変更</string>
+    <string name="group_setting">グループ設定</string>
+    <string name="change_userinfo">変更</string>
+
+    <!-- String related to change password-->
+    <string name="old_password">元のパスワード</string>
+    <string name="new_password">新しいパスワード</string>
+
+    <!-- Strings related to pedo -->
+    <string name="step_view">ステップ</string>
+    <string name="start_btn">開始</string>
+
+    <!-- Strings related to Google Map -->
+    <string name="start_step">スタート</string>
+    <string name="stop_step">ストップ</string>
+    <string name="map_loader_msg">お待ちください</string>
+
+    <!-- Strings related to forget password -->
+    <string name="title_activity_forget_pwd">パスワード</string>
+    <string name="prompt_email">メールアドレス</string>
+    <string name="error_invalid_email">登録されたアドレスではありません</string>
+    <string name="error_format_email">メールアドレスフォーマット誤り</string>
+    <string name="error_exist_email">すでに登録されたメールアドレスです</string>
+    <string name="permission_rationale">メールの補完を提供するには、連絡先の権限が必要です。</string>
+
+    <string name="prompt_birthday">生年月日</string>
+    <string name="error_invalid_birthday">この誕生日は無効です</string>
+    <string name="error_incorrect_birthday">このパスワードは間違っています</string>
+    <string name="confirm_code">認証コード</string>
+    <string name="error_incorrect_code">error_incorrect_code</string>
+
+    <!-- Strings related to Registration -->
+    <string name="prompt_confirm_password">パスワード(確認)</string>
+    <string name="prompt_userName">名前</string>
+    <string name="prompt_userHeight">身長 cm</string>
+    <string name="prompt_userWeight">体重 kg</string>
+    <string name="prompt_userHabit">運動習慣</string>
+    <string name="prompt_userStep">歩幅</string>
+    <string name="prompt_gender">性別</string>
+
+    <!-- String related to Main -->
+    <string name="text_avg_step">平均歩幅：</string>
+    <string name="text_lev_step">歩幅レベル：</string>
+    <string name="start_step_btn">測定開始</string>
+    <string name="ongoing_step_btn">測定進行中...</string>
+    <string name="result_step_btn">測定結果表示</string>
+    <string name="goto_myPage_btn">「わたしの健康習慣」の入力</string>
+    <string name="goto_myWebPage_btn">「わたしの運動習慣」ページへ</string>
+
+    <!-- String related to Main -->
+    <string name="text_test_date">測定日時:</string>
+    <string name="result_view_btn">測定結果表示</string>
+    <string name="result_next_btn">結果表示</string>
+
+    <!-- String related to Result -->
+    <string name="histogram_view_btn">ヒストグラム表示</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="send_verify_btn">送信</string>
+    <string name="go_reset_password_btn">パスワードの再設定</string>
+    <string name="reset_password_btn">再設定</string>
+    <string name="reset_password_desc">パスワードの初期化が要求されました。ご本人にお間違いなかったらメールを開いてをご確認後、下の再設定ボタンを押してください。</string>
+
+    <string name="text_step_count">歩数</string>
+    <string name="text_step_width">歩幅</string>
+    <string name="google_maps_api_key">AIzaSyAtdP7kXuikoMGeuOjXqNthOGqFl8xa4iM</string>
+
+    <string name="reply_measurement">測定を再開</string>
+    <string name="go_main">ホーム画面</string>
+
+    <string name="check_internet_connect">インターネットに接続した状態で実行して下さい</string>
+
+    <string name="welcome_msg">ようこそPedo-visorへ、さぁ歩幅を伸ばして健康な体をつくりましょう"</string>
+    <string name="add_user_info">あなたに合った運動習慣を身につけていただくために情報を提供ください。\n右上の「アカウント」をタップして入力ください。</string>
+    <string name="longtime_msg">お久しぶりです。さぁ歩幅の伸長を再開しましょう。</string>
+    <string name="check_mail_msg">パスワードリセットが要求されました。
+        登録いただいいてるメールアドレスに本人確認のメールを送付しています。
+        一旦メールを開いていただき、本人確認ボタンを押した後、本画面に戻っていただき、以下のボタンを押して新しいパスワードを再設定ください。</string>
+    <string name="connet_internet">インターネットに接続した状態で実行して下さい。</string>
+    <string name="save_success">保存成功</string>
+    <string name="save_error">保存失敗</string>
+    <string name="title_activity_meal_calendar">MealCalendarActivity</string>
+
+    <!-- String related to Health -->
+    <string name="reg_date">登録日付</string>
+    <string name="detail_view">詳細を見る</string>
+    <string name="data_add">資料を追加</string>
+    <string name="registration">登録</string>
+    <string name="delete">削除</string>
+    <string name="delete_success">削除成功</string>
+    <string name="delete_error">削除失敗</string>
+    <string name="are_you_delete">削除しますか?</string>
+    <string name="bed_time">就寝時間</string>
+    <string name="wakeup_time">起床時間</string>
+    <string name="sleep_time">睡眠時間</string>
+    <string name="select">選択</string>
+    <string name="invalid_time">時間を正確に入力してください。</string>
+    <string name="goto_meal_info">食事習慣履歴を見る</string>
+    <string name="add_meal_info">食事習慣の入力</string>
+    <string name="goto_sleep_info">睡眠習慣履歴を見る</string>
+    <string name="add_sleep_info">睡眠習慣の入力</string>
+    <string name="goto_weight_info">体重履歴を見る</string>
+    <string name="add_weight_info">体重記録の追加</string>
+
+    <string name="exercise_habit">運動習慣</string>
+    <string name="bmi_change">BMI推移</string>
+    <string name="stepsize_change">歩幅推移</string>
+    <string name="step_change">歩数推移</string>
+    <string name="meal_change">食事品目推移</string>
+    <string name="sleeptime_change">睡眠時間推移</string>
+    <string name="sleep_change">睡眠の質推移</string>
+</resources>

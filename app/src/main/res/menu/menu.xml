@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_notification1"
+        android:icon="@drawable/ic_menu"
+        app:showAsAction="always"
+        android:title="action_notification">
+        <menu>
+            <item
+                android:id="@+id/meal_habit"
+                android:icon="@drawable/ic_meal"
+                android:textColor="@color/mainColor"
+                android:title="@string/meal_habit" />
+            <item
+                android:id="@+id/sleep_habit"
+                android:icon="@drawable/ic_sleep"
+                android:textColor="@color/mainColor"
+                android:title="@string/sleep_habit" />
+            <item
+                android:id="@+id/userinfo"
+                android:icon="@drawable/ic_user"
+                android:textColor="@color/mainColor"
+                android:title="@string/userinfo" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout"
+                android:textColor="@color/mainColor"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+</menu>

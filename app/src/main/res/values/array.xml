@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="userHabit">
+        <item>①軽く汗ばむ程度の運動習慣はない</item>
+        <item>②月に2～3回は運動する</item>
+        <item>③週に1回は運動する</item>
+        <item>④週に2回以上は運動する</item>
+    </string-array>
+
+    <string-array name="userStep">
+        <item>①関節痛等の問題があり歩幅を伸ばしにくい</item>
+        <item>②じっくりと歩幅伸長に取り組みたい</item>
+        <item>③すでに歩幅には自信があり維持したい</item>
+        <item>④積極的に歩幅伸長に取り組みたい</item>
+    </string-array>
+    <string-array name="gender">
+        <item>男</item>
+        <item>女</item>
+        <item>其の他</item>
+    </string-array>
+</resources>

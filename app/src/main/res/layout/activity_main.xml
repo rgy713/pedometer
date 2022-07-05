@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dependa.pedometer.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="417dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_weight="0.01">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lab_avg_step"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/text_avg_step"
+                android:textColor="@color/mainColor" />
+
+            <TextView
+                android:id="@+id/avg_step"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@color/mainColor" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/lab_lev_step"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/text_lev_step"
+                android:textColor="@color/mainColor" />
+
+            <TextView
+                android:id="@+id/lev_step"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@color/mainColor" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1"
+                android:theme="@style/RatingBar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:layout_weight="0.86"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="14dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="90dp"
+                android:text="@string/text_step_count"
+                android:textColor="@color/mainColor" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barchart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/start_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="64dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/mainColor"
+            android:text="@string/start_step_btn"
+            android:textColor="@color/buttonText" />
+
+        <Button
+            android:id="@+id/result_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="64dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/mainColor"
+            android:text="@string/result_step_btn"
+            android:textColor="@color/buttonText" />
+        <Button
+            android:id="@+id/goto_mypage_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="64dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/mainColor"
+            android:text="@string/goto_myPage_btn"
+            android:textColor="@color/buttonText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/pedoLogo"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/pedo_logo" />
+
+        <TextView
+            android:id="@+id/pedoLabel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/app_title"
+            android:textColor="@color/mainColor" />
+    </LinearLayout>
+
+</LinearLayout>
